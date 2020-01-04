@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router,Link,Switch,Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import About from './About';
 import User from './User';
@@ -22,7 +22,6 @@ return (
  <Route path="/about" exact component={About}/>
  <Route path="/user" component={User}/>
  <Route path="/" exact component={Home}/>
- <Route path="/home" exact component={Home}/>
   
 </Switch>
 </div>

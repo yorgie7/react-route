@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function About() {
 return (
 <div className="App">
 <h1> About page </h1>
 
-<img src={require("./img/about.png")} />
+<img src={require("./img/about.png")} alt='not found' />
 <h3>This is About page.. </h3>
 </div>);
 

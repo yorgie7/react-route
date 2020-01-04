@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+background-color: #f8f8f8;
+}
+
+
+.header {
+  background-color: #50b6bb;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+ 
+  font-size: calc(10px + 2vmin);
+
+}
+
+
+li
+{
+display: inline;
+background:#50b6bb ;
+margin: 25px;
+padding-left: 10px;
+padding-right: 10px;
+border: 2px solid #50b6bb;
+list-style-type: none;
+color: white}
+
+.footer {
+  background-color: #50b6bb;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+

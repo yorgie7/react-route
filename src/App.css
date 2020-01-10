@@ -26,6 +26,9 @@ padding-right: 10px;
 border: 2px solid #50b6bb;
 list-style-type: none;
 color: white}
+a {
+  text-decoration: none;
+}
 
 .footer {
   background-color: #50b6bb;

@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
-import About from './About';
-import User from './User';
-import Home from './Home';
+import About from './components/AboutPage';
+import User from './components/UserPage';
+import Home from './components/HomePage';
 import Navbar from './Navbar';
 
 

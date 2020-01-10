@@ -4,7 +4,7 @@ function Home(){
 return (<div className="App">
 <h1> Welcome to the page </h1>
 
-<img src={require("./img/home.jpg")} alt='not found' />
+<img src={require("../img/home.jpg")} alt='not found' />
 <h3>This is Home page... </h3>
 </div>);
 
